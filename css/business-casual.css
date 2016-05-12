@@ -1,8 +1,8 @@
 /*!
- * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+* Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -45,6 +45,7 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+    font-size: 15px;
 }
 
 .navbar-nav {
@@ -60,7 +61,7 @@ hr {
 /*
 .brand-before,
 .brand-name {
-    text-transform: capitalize;
+text-transform: capitalize;
 }
 */
 
@@ -70,7 +71,7 @@ hr {
 
 .brand-name {
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .tagline-divider {
@@ -126,6 +127,10 @@ footer p {
         font-weight: 700;
         line-height: normal;
         color: #fff;
+    }
+
+    .brand-name {
+        font-size: 4em;
     }
 
     .top-divider {
@@ -185,7 +190,7 @@ footer p {
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:100px) {
     .box:after {
         content: '';
         display: table;
